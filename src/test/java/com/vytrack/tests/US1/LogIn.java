@@ -22,5 +22,6 @@ public class LogIn {
         BrowserUtils.sleep(1);
         WebElement clickButton = driver.findElement(By.xpath("//button[@id = '_submit']"));
         clickButton.click();
+
     }
 }
